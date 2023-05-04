@@ -1,0 +1,46 @@
+.home-wrapper {
+  background: linear-gradient(180deg, #030102 0%, #030102 100%);
+}
+.home-container {
+  min-height: 100vh;
+
+  background-image: url("../../assets/images/bg-img.png");
+  background-color: linear-gradient(180deg, #030102 0%, #030102 100%);;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1232px;
+  padding: 20px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.calculater-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.connect-wallet {
+  width: 180px;
+
+  padding: 10px;
+
+  background: rgba(91, 60, 45, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6px);
+
+  border-radius: 6px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}

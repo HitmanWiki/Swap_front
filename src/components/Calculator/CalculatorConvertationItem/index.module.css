@@ -1,0 +1,69 @@
+.convertation-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  height: calc(100% - 48px);
+
+  position: relative;
+}
+
+.convertation-title {
+  display: flex;
+  align-items: center;
+
+  color: #fff;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.convertation-title .text {
+  display: block;
+  margin-left: 10px;
+}
+
+.convertation-title img {
+  width: 30px;
+  height: 30px;
+}
+
+.convertation-select-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.calculator-dropdown {
+  color: #fff;
+
+  font-size: 20px;
+
+  padding: 10px 0;
+}
+
+.calculator-dropdown-menu {
+  font-size: 16px;
+
+  background-color: yellow;
+
+  padding: 5px 10px;
+
+  border-radius: 10px;
+
+  margin-top: 10px;
+
+  font-family: "Sk-Modernist-Bold";
+
+  position: absolute;
+
+  max-width: 20vw;
+  width: 270px;
+}
+
+.calculator-dropdown-menu > div {
+  margin: 10px 0;
+  cursor: pointer;
+
+  font-family: "Sk-Modernist-Regular";
+}

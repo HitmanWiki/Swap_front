@@ -1,0 +1,23 @@
+.dropdown-arrow {
+  margin-left: 10px;
+
+  cursor: pointer;
+}
+
+.dropdown-value-container {
+  display: flex;
+  align-items: center;
+
+  color: yellow;
+
+  font-size: 18px;
+}
+
+.dropdown-value-container > p {
+  margin-top: 4px;
+}
+
+.dropdown-wrapper {
+  position: relative;
+  width: 80px;
+}

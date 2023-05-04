@@ -1,0 +1,228 @@
+.calculator-wrapper {
+  width: 100%;
+  max-width: 464px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: yellow;
+}
+
+.calculator-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 40px;
+}
+
+.calculator-container {
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+  position: relative;
+
+  width: 100%;
+}
+
+
+.provider-select {
+  background-color: #1e2841;
+
+  border: 1px solid rgba(81, 84, 112, 0.5);
+  border-radius: 6px;
+
+  padding: 10px;
+
+  width: 100%;
+  max-width: 272px;
+}
+
+.provider-select > * {
+  color: yellow;
+}
+
+.provider-select-menu {
+  position: absolute;
+
+  background-color: #84a4d3;
+
+  padding: 10px;
+
+  border-radius: 6px;
+
+  margin-top: 15px;
+
+  z-index: 1;
+}
+
+.provider-select-menu > div {
+  cursor: pointer;
+}
+
+.card-default {
+  margin-bottom: 4px;
+  background: linear-gradient(114.9deg, black 4.76%, black 104.59%);
+  background-size: cover;
+  border-radius: 6px;
+  padding: 24px;
+}
+
+.conversion-header {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 26px;
+}
+
+.reverse-button {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 40px;
+  height: 40px;
+
+  background-image: url("../../assets/images/calculator-reverse.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: yellow;
+  border-radius: 100%;
+  padding: 7px;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+.balance-container {
+  color: #fff;
+  opacity: 0.6;
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.calc-input {
+  color: #fff;
+
+  font-size: 26px;
+
+  background-color: transparent;
+  border: none;
+  text-align: right;
+  max-width: 120px;
+}
+
+.calc-input-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.total {
+  font-size: 26px;
+  color: #fff;
+
+  margin: 0;
+}
+.justify-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.buttons-group {
+  display: flex;
+  gap: 6px;
+}
+
+.convertation-item,
+.slippage-button {
+  background-color: transparent;
+  position: relative;
+  display: flex;
+  gap: 4px;
+
+  font-size: 16px;
+  font-weight: 600;
+  padding: 4px 10px;
+
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+.slippage-input {
+  width: 50px;
+  background-color: transparent;
+  position: relative;
+  display: flex;
+  gap: 4px;
+
+  font-size: 16px;
+  font-weight: 600;
+  padding: 4px 10px;
+
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid yellow;
+  cursor: pointer;
+}
+
+.slippage-box {
+  display: flex;
+}
+
+.calc-button {
+  width: 100%;
+  padding: 8px 10px;
+  background: yellow;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 12px;
+}
+.calc-button:disabled {
+  opacity: 0.5;
+}
+
+.calc-button:disabled:hover {
+  cursor: initial;
+}
+
+.calculator-dropdown {
+  width: 100%;
+}
+
+.line-right {
+  position: absolute;
+  width: calc(100% - 24px - 3.5%);
+
+  left: 3.5%;
+  top: 50%;
+
+  height: 1px;
+
+  background-color: #515470;
+}
+
+.line-left {
+  position: absolute;
+  width: calc(100% - 24px - 3.5%);
+
+  right: 3.5%;
+  top: 50%;
+
+  height: 1px;
+
+  background-color: #515470;
+}
